@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sbzz.in</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+  <script src="https://kit.fontawesome.com/02193a594e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- desk-nav -->
+
+    <nav id="desk-nav">
+      <div class="logo">sBz-In</div>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experiance">Experiance</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- mobile-navigation -->
+
+    <nav id="hamburger-nav">
+      <div class="logo">sBz-In</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">about</a></li>
+          <li><a href="#experiance" onclick="toggleMenu()">experiance</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- profile-sec -->
+
+    <section id="profile">
+
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic .png" alt="sBz.inn" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Shibil Mohammed</h1>
+        <p class="section__text__p2">Frontend-Dev</p>
+
+        <div class="btn-container">
+          <button class="btn btn-color-1"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='www.linkedin.com/in/shibil-mohd'"
+            
+            
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/NicsOO1'"
+          />
+        </div>
+      </div>
+
+    </section>
+
+    <!-- about-sec -->
+
+    <section id="about">
+      <p class="section__text__p1">Get to Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container about-pic-size">
+          <img class="about-pic" src="./assets/about3(2).JPG" alt="sbz">
+        </div>
+        
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img class="icon" src="./assets/experience.png" alt="experiance.png">
+              <h3>Experiance</h3>
+              <p>+1year<br>Frontend-Development</p>
+            </div>
+
+            <div class="details-container">
+              <img class="icon" src="./assets/education.png" alt="education.png">
+              <h3>Education</h3>
+              <p>BCA Bachelors Degree<br>Diploma in Graphic Design</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi, I’m Shibil Mohammed, a 21-year-old freelance Front-End developer and graphic designer. With over a year of experience, I’m passionate about coding and photography. Despite being relatively new, I’m committed to continuous improvement. I approach every project with precision and creativity, aiming for perfection. My curiosity drives me to explore the depths of the mind. Let’s create something amazing together!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img onclick="location.href='#experiance'" class="icon arrow" src="./assets/arrow.png" alt="arrow">
+    </section>
+
+    <!-- Experiance -->
+
+    <section id="experiance">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experiance</h1>
+
+      <div class="experiance-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experiance-subtitle">Front-End Development</h2>
+            <div class="article-container">
+              <article>
+                <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experianced</p>
+                </div>
+              </article>
+
+              <article>
+                <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experianced</p>
+                </div>
+              </article>
+
+              <article>
+                <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermidiate</p>
+                </div>
+              </article>
+
+              <article>
+                <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+                <div>
+                  <h3>Communication</h3>
+                  <p>Intermidiate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experiance-subtitle">Graphic-Design</h2>
+            <div class="article-container">
+              <article>
+                <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+                <div>
+                  <h3>UI/UX</h3>
+                  <p>Intermidiate</p>
+                </div>
+              </article>
+
+              <article>
+                <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+                <div>
+                  <h3>Logo</h3>
+                  <p>Intermidiate</p>
+                </div>
+              </article>
+
+              <article>
+                <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+                <div>
+                  <h3>Figma</h3>
+                  <p>Intermidiate</p>
+                </div>
+              </article>
+
+              <!-- <article>
+                <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+                <div>
+                  <h3>Typography</h3>
+                  <p>Basic</p>
+                </div> 
+              </article> -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr style="width: 100%;margin-top: 3rem;border-top: dotted rgb(85, 85, 85);">
+      <img onclick="location.href='#projects'" class="icon arrow" src="./assets/arrow.png" alt="arrow">
+    </section>
+
+    <!-- Projects-section -->
+
+    <section id="projects">
+      <p class="section__text__p1">My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experiance-details-container">
+        <div class="about-containers">
+
+          <div class="details-container color-container">
+            <div class="article-container proj-article-container">
+              <img class="project-img" src="./assets/proj1.png" alt="">
+              <h2 class="experiance-subtitle project-title">Project 1</h2>
+              <div class="btn-container">
+                <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/NicsOO1/QRgenerator.git'">Github</button>
+                <button class="btn btn-color-1 project-btn" onclick="location.href='https://nicsoo1.github.io/QRgenerator/'">Live Demo</button>
+              </div>
+             
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container proj-article-container">
+              <img class="project-img" src="./assets/proj2.png" alt="">
+              <h2 class="experiance-subtitle project-title">Project 2</h2>
+              <div class="btn-container">
+                <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/NicsOO1/Weather-App.git'">Github</button>
+                <button class="btn btn-color-1 project-btn" onclick="location.href='https://nicsoo1.github.io/Weather-App/'">Live Demo</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container proj-article-container">
+              <img class="project-img" src="./assets/proj3.png" alt="">
+              <h2 class="experiance-subtitle project-title">Project 3</h2>
+              <div class="btn-container">
+                <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/NicsOO1/Do-list.git'">Github</button>
+                <button class="btn btn-color-1 project-btn" onclick="location.href='#'">Live Demo</button>
+              </div>
+        </div>
+          </div>
+        </div>
+      </div>
+
+      <img onclick="location.href='#contact'" class="icon arrow" src="./assets/arrow.png" alt="arrow">
+    </section>
+
+    <!-- contact-sec -->
+
+    <section id="contact">
+      <p class="section__text__p1">Get in touch</p>
+      <h1 class="title">Contact Me</h1>
+
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img class="icon contact-img email-icon" src="./assets/email.png" alt="email">
+          <p><a href="mailto:shibzzmohd@gmail.com">shibzzmohd@gmail.com</a></p>
+        </div>
+
+        <div class="contact-info-container">
+          <img class="icon contact-img" src="./assets/instagram-logo (2).png" alt="linkedin">
+          <p><a href="https://www.instagram.com/sbzz.in?igsh=cnR6MGVvOGh0a24x&utm_source=qr">sbzz.in</a></p>
+        </div>
+      </div>
+      <img onclick="location.href='#desk-nav'" class=" triple-arrow" src="./assets/triple-up-arrow.png" alt="arrow">
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+      <p>Copyright &#169; 2024 Shibil Mohammed. All Rights Reserved.</p>
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>
